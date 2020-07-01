@@ -1,13 +1,15 @@
 $theme-color: #ff5252;
 $white: #fff;
 $grey: #555;
+$theme-grey: #778ca3;
+$theme-blue: #45aaf2;
 
 .clr-white {
   color: $white;
 }
 
 .clr-grey {
-  color: #grey;
+  color: $grey;
 }
 
 .clr-theme {
@@ -16,6 +18,14 @@ $grey: #555;
 
 .bg-theme {
   background-color: $theme-color;
+}
+
+.bg-theme-grey {
+  background-color: $theme-grey;
+}
+
+.bg-theme-blue {
+  background-color: $theme-blue;
 }
 
 .bg-transparent {
