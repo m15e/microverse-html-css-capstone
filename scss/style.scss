@@ -11,15 +11,20 @@
   margin: 0;
 }
 
-.main-nav {
-  background-color: $theme-color;
+.panel {
+  box-shadow: none;
+}
 
-  .panel {
-    box-shadow: none;
+.panel-tabs {
+  a {      
+    border-bottom: none;     
   }
+}
+
+.main-nav {
+  background-color: $theme-color;  
   .panel-tabs {
-    a {
-      border-bottom: none;
+    a {      
       width: 16.6%;      
     }
   }
@@ -45,9 +50,12 @@
     max-width: 300px;
     max-height: 300px;
     float: right;
-
   }
+}
 
-
- 
+.ftr-social {
+  a {
+    opacity: 0.6;
+  }
+  
 }
