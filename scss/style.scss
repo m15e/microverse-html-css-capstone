@@ -75,10 +75,13 @@
 }
 
 .result-detail {
-  border: 1px solid grey;
+  border: 1px solid #dadada;
 }
 
 .result-details {
+  border: 1px solid #dadada;
+  padding: 2rem;
+
   .result-apply {
     float: right;
   }
@@ -87,6 +90,26 @@
     justify-content: flex-end;
     clear: both;
   }
+}
 
+.result-description {
   
+  p {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+}
+
+.more-detail {
+  padding: 40px 50px;
+
+  img {
+    height: auto;
+    width: 32px;
+  }
+
+  span {
+    margin-left: 20px;
+    letter-spacing: 0.5rem;
+  }
 }
