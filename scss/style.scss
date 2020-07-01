@@ -1,0 +1,18 @@
+@import 'utils';
+
+$theme-color: #ff5252;
+
+.main-nav {
+  background-color: $theme-color;
+
+  .panel {
+    box-shadow: none;
+  }
+  .panel-tabs {
+    a {
+      border-bottom: none;
+      width: 16.6%;      
+    }
+  }
+}
+
