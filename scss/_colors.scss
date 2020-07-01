@@ -1,0 +1,23 @@
+$theme-color: #ff5252;
+$white: #fff;
+$grey: #555;
+
+.clr-white {
+  color: $white;
+}
+
+.clr-grey {
+  color: #grey;
+}
+
+.clr-theme {
+  color: $theme-color;
+}
+
+.bg-theme {
+  background-color: $theme-color;
+}
+
+.bg-transparent {
+  background-color: rgba($color: #fff, $alpha: 0.7);
+}

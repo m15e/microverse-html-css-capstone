@@ -1,6 +1,15 @@
 @import 'utils';
+@import 'colors';
 
-$theme-color: #ff5252;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.columns {
+  margin: 0;
+}
 
 .main-nav {
   background-color: $theme-color;
@@ -16,3 +25,17 @@ $theme-color: #ff5252;
   }
 }
 
+.search-container {
+  background: url('../img/school.jpg') no-repeat;
+  background-size: cover;
+  height: 80vh;
+  padding-top: 200px;
+  position: relative;
+
+
+  .how-it-works {
+    position: relative;
+    top: 40px;
+    left: 150px;
+  }
+}
