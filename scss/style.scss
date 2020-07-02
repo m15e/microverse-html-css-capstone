@@ -71,23 +71,28 @@
   ul {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
+
+    li a {
+      text-align: center;
+    }
   }
 
-  ul::before {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    left: (100% - 9%)/2;
-    background: url('../img/edu.svg') no-repeat;
-    background-size: 60%;
-    background-position: center;
-    height: 120px;
-    border-radius: 100%;
-    width: 9%;
-    z-index: 2;
-    background-color: #000;
-    border: 1px solid #fff;
-  }
+  // ul::before {
+  //   content: '';
+  //   display: inline-block;
+  //   position: absolute;
+  //   left: 46.25%;
+  //   top: 21%;
+  //   background: url('../img/edu.svg') no-repeat;
+  //   background-size: 60%;
+  //   background-position: center;
+  //   height: 7vw;
+  //   border-radius: 100%;
+  //   width: 7vw;
+  //   z-index: 2;
+  //   background-color: #000;
+  //   border: 1px solid #fff;
+  // }
 
   .space-span {
     width: 150px;
@@ -179,5 +184,11 @@
 @media screen and (min-width: 1024px) {
   #brand {
     width: 120%;
+  }
+  .ftr-links {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(9, 100px);
+    }
   }
 }
