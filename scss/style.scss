@@ -31,6 +31,14 @@
     .brand {
       width: 220px;
     }
+
+    .brand::after {
+      content: 'LinkSpace';
+      margin-left: 0.5rem;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
   }
   .nav-panel a {
     display: flex;
@@ -189,6 +197,18 @@
   img {
     height: auto;
     width: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-container::before {
+    content: 'LinkSpace';
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    top: 2.5%;
+    font-weight: bold;
+    font-size: 3rem;
   }
 }
 
