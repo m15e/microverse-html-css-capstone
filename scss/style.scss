@@ -122,6 +122,7 @@
 .result-details {
   border: 1px solid #dadada;
   padding: 2rem;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
 
   .result-apply {
     float: right;
@@ -130,6 +131,11 @@
   ul {
     justify-content: flex-end;
     clear: both;
+  }
+
+  li {
+    justify-content: flex-end;  
+    line-height: 2;
   }
 }
 
