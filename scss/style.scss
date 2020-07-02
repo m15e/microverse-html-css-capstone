@@ -92,6 +92,14 @@
   }
 }
 
+.search-filter {
+  input,
+  select {
+    min-width: 200px;
+  }
+  
+}
+
 .result-description {
   
   p {
@@ -111,5 +119,12 @@
   span {
     margin-left: 20px;
     letter-spacing: 0.5rem;
+  }
+}
+
+.result-video {
+  img {
+    height: auto;
+    width: 32px;
   }
 }

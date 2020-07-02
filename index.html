@@ -106,8 +106,19 @@
               to view more
               details</span></a>
         </div>
-        <div class="result-map">
-
+        <div class="result-video">
+          <div class="container">
+            <h4 class='has-text-centered'><span class='ai-center is-inline-flex clr-theme title is-4 upcase py-6'><img
+                  src="./img/location-red.svg" alt="location icon">Content
+                Example</span></h4>
+            <div class="columns mx-auto is-centered">
+              <div class="video-container column is-half">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NJBBE_SN90A" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -118,7 +129,8 @@
       <div class="container py-6">
         <h2 class='title is-3 has-text-centered py-2 clr-grey'>Filter by name, country, education system, school level:
         </h2>
-        <form action="/filter" class='is-flex is-just-around px-4'>
+
+        <form action="/filter" class='is-flex wrap-wrap is-just-around px-4'>
           <div class="field">
             <label class="label">Name</label>
             <div class="control">
@@ -189,6 +201,7 @@
             </div>
           </div>
         </form>
+
       </div>
     </section>
     <section class="search-results py-6">
