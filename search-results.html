@@ -42,105 +42,110 @@
     </div>
   </nav>
 
+ 
 
-  <section class='search-container'>
-    <div class="columns is-tablet is-centered">
-      <div class="column is-two-thirds">
-        <h2 class="clr-white has-text-centered title is-4">PARA SHULE... YOUR GATEWAY TO SCHOOLS IN KENYA.</h2>
-        <form action="/search" class='py-2 px-2 bg-transparent round'>
-          <h4 class="clr-grey pt-1 upcase has-text-weight-bold">Search by key word:</h4>
-          <input class='input w-100 mt-2' type="text">
-          <input class='w-100 button bg-theme clr-white mt-2 upcase has-text-weight-bold' type="submit" value='search'>
+  <div class="results-page">
+    <section class='search-filter bg-light-grey mt-6'>
+      <div class="container py-6">
+        <h2 class='title is-3 has-text-centered py-2 clr-grey'>Filter by name, country, education system, school level:
+        </h2>
+
+        <form action="/filter" class='is-flex wrap-wrap is-just-around px-4'>
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Subject</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Level</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Type</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Topic</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Curriculum</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select dropdown</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field is-grouped is-flex ai-center">
+            <div class="control pt-4">
+              <button class="button is-link">Submit</button>
+            </div>
+            <div class="control pt-4">
+              <button class="button is-link is-light">Cancel</button>
+            </div>
+          </div>
         </form>
-        <span class='how-it-works bg-transparent is-inline-block px-2 py-2 round-ish'>How it works</span>
+
       </div>
-    </div>
-  </section>
-  <section class="steps pb-6 mb-6">
-    <div class="container">
-      <h4 class="title is-4 upcase clr-theme has-text-weight-bold has-text-centered pt-6 pb-4">Pata schule works in four
-        simple
-        steps
-      </h4>
-      <div class="columns is-desktop">
-        <div class="column is-half-desktop has-text-centered">
-          <img src="./img/location.svg" class='image is-96x96 mx-auto py-2 mb-4' alt="location icon">
-          <h3 class='upcase has-text-weight-bold is-4 title'>1- Search:</h3>
-          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know
-            how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. </p>
+    </section>
+    <section class="search-results py-6">
+      <h3 class='title has-text-centered clr-grey'>Search Results found 7 school(s).</h3>
+      <div class="columns is-tablet px-6">
+        <div class="column is-one-third has-text-centered">
+          <a href="#" class='is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Name: <span class='has-text-weight-bold'>DOMINO</span></h3>
+          </a>
         </div>
-        <div class="column is-half-desktop has-text-centered">
-          <img src="./img/location.svg" class='image is-96x96 mx-auto py-2 mb-4' alt="location icon">
-          <h3 class='upcase has-text-weight-bold is-4 title'>1- Search:</h3>
-          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know
-            how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. </p>
+        <div class="column is-one-third has-text-centered">
+          <a href="#" class='is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Name: <span class='has-text-weight-bold'>DOMINO</span></h3>
+          </a>
+        </div>
+        <div class="column is-one-third has-text-centered">
+          <a href="#" class='is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Name: <span class='has-text-weight-bold'>DOMINO</span></h3>
+          </a>
         </div>
       </div>
-      <div class="columns is-desktop">
-        <div class="column is-half-desktop has-text-centered">
-          <img src="./img/location.svg" class='image is-96x96 mx-auto py-2 mb-4' alt="location icon">
-          <h3 class='upcase has-text-weight-bold is-4 title'>1- Search:</h3>
-          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know
-            how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. </p>
-        </div>
-        <div class="column is-half-desktop has-text-centered">
-          <img src="./img/location.svg" class='image is-96x96 mx-auto py-2 mb-4' alt="location icon">
-          <h3 class='upcase has-text-weight-bold is-4 title'>1- Search:</h3>
-          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know
-            how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="features">
-    <div class="feature bg-theme pb-4">
-      <div class="container">
-        <div class="columns is-tablet">
-          <div class="column is-half py-6">
-            <h4 class='title is-4 clr-white mt-6'>Over 10,000 schools registered with us</h4>
-            <p class="clr-white mb-6">Find a school using our search engine</p>
-            <a href="#" class="button ">Find a school</a>
-          </div>
-          <div class="column is-half">
-            <figure class="image">
-              <img class="is-rounded" src="./img/bg.jpg" alt='info image'>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="feature bg-theme-grey pb-4">
-      <div class="container">
-        <div class="columns is-tablet">
-          <div class="column is-half py-6">
-            <h4 class='title is-4 clr-white mt-6'>Over 10,000 schools registered with us</h4>
-            <p class="clr-white mb-6">Find a school using our search engine</p>
-            <a href="#" class="button ">Find a school</a>
-          </div>
-          <div class="column is-half">
-            <figure class="image">
-              <img class="is-rounded" src="./img/bg.jpg" alt='info image'>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="feature bg-theme-blue pb-4">
-      <div class="container">
-        <div class="columns is-tablet">
-          <div class="column is-half py-6">
-            <h4 class='title is-4 clr-white mt-6'>Over 10,000 schools registered with us</h4>
-            <p class="clr-white mb-6">Find a school using our search engine</p>
-          </div>
-          <div class="column is-half">
-            <figure class="image">
-              <img class="is-rounded" src="./img/bg.jpg" alt='info image'>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
+
   <footer class="bg-black">
     <div class="container pt-6">
       <div class="ftr-links mx-6 has-text-centered">
