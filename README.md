@@ -1,63 +1,39 @@
-# Project Name
+# Microverse HTML/CSS Capstone Project
 
-> One paragraph statement about the project.
+> The goal of this project was to follow the design style of [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam)and customize the project content in order to demonstrate knowledge in HTML/CSS.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
+- SASS
+- BULMA https://bulma.io/
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://epic-wozniak-4c8300.netlify.app)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**Clone this Repository to your local machine and open the file with your favourite browser that doesn't start with Internet Explorer.**
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mark Rode**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@m15e](https://github.com/m15e)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Be on the lookout on this github account for the LearnSpace repository.
 
 ## Show your support
 
@@ -65,9 +41,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [bulma.io](https://bulma.io)
+- [Mathew Njuguna](https://www.behance.net/mathewnjuguna)  
+- [Sam Achola](https://www.behance.net/aweSam)
+- [WANEELA for the great artwork](www.patreon.com/waneella)[WANEELA TUMBLR](https://waneella.tumblr.com/)
+
 
 ## 📝 License
 
