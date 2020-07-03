@@ -33,7 +33,7 @@
     }
 
     .brand::after {
-      content: 'LinkSpace';
+      content: 'LearnSpace';
       margin-left: 0.5rem;
       color: #fff;
       font-weight: bold;
@@ -47,7 +47,7 @@
 }
 
 .search-container {
-  background: url('../img/school.jpg') no-repeat;
+  background: url('../img/home.gif') no-repeat;
   background-size: cover;
   height: 80vh;
   padding-top: 200px;
@@ -57,7 +57,7 @@
   .how-it-works {
     position: relative;
     top: 40px;
-    left: 150px;
+    left: 44.5%;
   }
 }
 
@@ -202,13 +202,19 @@
 
 @media screen and (max-width: 768px) {
   .search-container::before {
-    content: 'LinkSpace';
+    content: 'LearnSpace';
     color: #fff;
     position: absolute;
     left: 5%;
     top: 2.5%;
     font-weight: bold;
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .how-it-works {
+    margin: -100px;
   }
 }
 
