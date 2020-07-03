@@ -15,6 +15,12 @@
   box-shadow: none;
 }
 
+.search-home:hover {
+  color: #fff;
+  background-color: #00b3ff;
+  transition-duration: 900ms;
+}
+
 .panel-tabs {
   a {      
     border-bottom: none;     
@@ -87,23 +93,6 @@
     }
   }
 
-  // ul::before {
-  //   content: '';
-  //   display: inline-block;
-  //   position: absolute;
-  //   left: 46.25%;
-  //   top: 21%;
-  //   background: url('../img/edu.svg') no-repeat;
-  //   background-size: 60%;
-  //   background-position: center;
-  //   height: 7vw;
-  //   border-radius: 100%;
-  //   width: 7vw;
-  //   z-index: 2;
-  //   background-color: #000;
-  //   border: 1px solid #fff;
-  // }
-
   .space-span {
     width: 150px;
   }
@@ -161,6 +150,7 @@
 .filt-btn-search:hover, .filt-btn-clear:hover {
   background-color: $theme-color;
   color: #fff;
+  transition-duration: 600ms;
 }
 
 .filt-btn-clear {
