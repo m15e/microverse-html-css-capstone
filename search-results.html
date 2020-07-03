@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LinkSpace | Results</title>
+  <title>Search Results | LearnSpace</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -47,14 +47,14 @@
   <div class="results-page">
     <section class='search-filter bg-light-grey mt-6'>
       <div class="container py-6">
-        <h2 class='title is-3 has-text-centered px-4 py-2 clr-grey'>Filter by name, country, education system, school level:
+        <h2 class='title is-3 has-text-centered px-4 py-2 clr-grey'>Filter by name, subject, category, teacher or difficulty level:
         </h2>
 
         <form action="/filter" class='is-flex wrap-wrap is-just-around px-4'>
           <div class="field">
-            <label class="label">Name</label>
+            <label class="label">User</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input">
+              <input class="input" type="text" placeholder="@username">
             </div>
           </div>
           <div class="field">
@@ -62,7 +62,29 @@
             <div class="control">
               <div class="select">
                 <select>
-                  <option>Select dropdown</option>
+                  <option>iOS</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Category</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Mobile Development</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Teacher</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Select Teacher</option>
                   <option>With options</option>
                 </select>
               </div>
@@ -73,40 +95,18 @@
             <div class="control">
               <div class="select">
                 <select>
-                  <option>Select dropdown</option>
+                  <option>Beginner</option>
                   <option>With options</option>
                 </select>
               </div>
             </div>
           </div>
           <div class="field">
-            <label class="label">Type</label>
+            <label class="label">Filter</label>
             <div class="control">
               <div class="select">
                 <select>
-                  <option>Select dropdown</option>
-                  <option>With options</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Topic</label>
-            <div class="control">
-              <div class="select">
-                <select>
-                  <option>Select dropdown</option>
-                  <option>With options</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Curriculum</label>
-            <div class="control">
-              <div class="select">
-                <select>
-                  <option>Select dropdown</option>
+                  <option>Most Viewed</option>
                   <option>With options</option>
                 </select>
               </div>
@@ -114,10 +114,10 @@
           </div>
           <div class="field is-grouped is-flex ai-center">
             <div class="control pt-4">
-              <button class="button is-link">Submit</button>
+              <button class="button filt-btn-search has-text-weight-bold clr-white">Search</button>
             </div>
             <div class="control pt-4">
-              <button class="button is-link is-light">Cancel</button>
+              <button class="button filt-btn-clear has-text-weight-bold clr-white">Clear filter</button>
             </div>
           </div>
         </form>
@@ -125,7 +125,7 @@
       </div>
     </section>
     <section class="search-results py-6">
-      <h3 class='title has-text-centered clr-grey'>Search Results found 7 school(s).</h3>
+      <h3 class='title has-text-centered clr-grey'>Search Discovered 4 Item(s).</h3>
       <div class="columns is-tablet px-6">
         <div class="column is-one-third has-text-centered">
           <a href="#" class='is-block w-100 pt-4'>

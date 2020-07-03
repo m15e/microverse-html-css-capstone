@@ -133,6 +133,23 @@
   }
 }
 
+.filt-btn-search {
+  background-color: $theme-blue;
+}
+
+.filt-btn-search:hover, .filt-btn-clear:hover {
+  background-color: $theme-color;
+  color: #fff;
+}
+
+.filt-btn-clear {
+ background: url('../img/clear.svg') no-repeat, #f6b93b no-repeat;
+ background-size: 8%, cover;
+ background-position: 0.6rem center, center;
+ padding-left: 1.5rem;
+ color: #fff;
+}
+
 .result-link {
   width: 250px;
   height: 70px;
