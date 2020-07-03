@@ -353,20 +353,24 @@
   .ftr-social > p {
     margin: 3rem 0 2rem;
   }
+
   .search-container h4 {
-    margin-top: 15px;    
-  }  
+    margin-top: 15px;
+  }
+
   .search-input,
   .search-container h4 {
     padding-left: 5%;
     padding-right: 10%;
   }
+
   .search-input input[type='text'] {
     width: 125%;
     margin-bottom: 25px;
   }
+
   .search-input input[type='submit'] {
-    width: 25%;    
+    width: 25%;
   }
 }
 
