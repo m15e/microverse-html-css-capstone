@@ -16,7 +16,7 @@
 }
 
 .search-home:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: #00b3ff;
   transition-duration: 900ms;
 }
@@ -259,7 +259,7 @@
   .ftr-links {
     ul {
       display: grid;
-      grid-template-columns: repeat(9, 100px);
+      grid-template-columns: repeat(9, 1fr);
     }
     img {
       padding: 10px;
