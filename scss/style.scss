@@ -127,9 +127,27 @@
 
 .search-results {
   a {    
-    height: 400px;
-    background: url('../img/location.svg') no-repeat , $theme-color;
-    background-size: contain, cover;
+    height: 400px;    
+  }
+  .user {
+    background: url('../img/energy.gif') no-repeat;
+    background-size: cover;
+  }
+
+  .missem {
+    background: url('../img/missem.jpeg') no-repeat;
+    background-size: cover;
+  }
+
+  .coms {
+    background: url('../img/comms.gif') no-repeat;
+    background-size: cover;
+  }
+
+  .intro-ml {
+    background:  url('../img/explore.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
