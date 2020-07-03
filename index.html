@@ -15,15 +15,16 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-half is-flex is-just-center is-hidden-tablet">
-          <img class='image is-block is-32x32' src="./img/linkspace.svg" alt="temp logo">
+          <a href='https://epic-wozniak-4c8300.netlify.app/'><img class='image is-block is-32x32'
+              src="./img/linkspace.svg" alt="temp logo"></a>
         </div>
       </div>
       <div class="columns is-centered pb-5">
         <div class="column is-full-tablet pt-0 mx-auto">
           <nav class="panel">
             <p class="panel-tabs is-flex ai-center nav-panel">
-              <a href="#" id='brand' class='brand is-hidden-mobile'><img class='image is-32x32'
-                  src="./img/linkspace.svg" alt="temp logo"></a>
+              <a href="https://epic-wozniak-4c8300.netlify.app/" id='brand' class='brand is-hidden-mobile'><img
+                  class='image is-32x32' src="./img/linkspace.svg" alt="temp logo"></a>
               <a href="#"><img src="./img/search.svg" alt="search icon" class="image is-16x16 mx-auto"><span
                   class='is-hidden-touch clr-white upcase has-text-weight-bold ml-1'>Search</span></a>
               <a href="#"><img src="./img/user.svg" alt="user icon" class="image is-16x16 mx-auto"><span
@@ -43,12 +44,14 @@
   <section class='search-container'>
     <div class="columns is-tablet is-centered">
       <div class="column is-two-thirds">
-        <h2 class="clr-white has-text-centered title is-3">Share, Organize, Grow Your Learning Resources.</h2>
+        <h1 class="clr-white has-text-centered title is-3">Share, Organize, Grow Your Learning Resources.</h1>
         <form action="/search-results.html" class='py-2 px-2 bg-transparent round'>
           <h4 class="clr-grey pt-1 upcase has-text-weight-bold">Search by TOPIC:</h4>
-          <input class='input w-100 mt-2 has-text-weight-bold' type="text" placeholder="HTML/CSS">
-          <input class='search-home w-100 button bg-theme clr-white mt-2 upcase has-text-weight-bold' type="submit"
-            value='search'>
+          <div class='is-flex-tablet search-input'>
+            <input class='input w-100 mt-2 has-text-weight-bold' type="text" placeholder="HTML/CSS">
+            <input class='search-home w-100 button bg-theme clr-white mt-2 upcase has-text-weight-bold' type="submit"
+              value='search'>
+          </div>
         </form>
         <span class='how-it-works bg-transparent is-inline-block px-2 py-2 round-ish'>How it works</span>
       </div>

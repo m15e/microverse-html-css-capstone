@@ -67,11 +67,11 @@
 }
 
 .clr-theme {
-  color: #ff5252;
+  color: #d35649;
 }
 
 .bg-theme {
-  background-color: #ff5252;
+  background-color: #d35649;
 }
 
 .bg-grey {
@@ -130,7 +130,7 @@
 }
 
 .main-nav {
-  background-color: #ff5252;
+  background-color: #d35649;
 }
 
 .ftr-social a {
@@ -261,7 +261,7 @@
 
 .filt-btn-search:hover,
 .filt-btn-clear:hover {
-  background-color: #ff5252;
+  background-color: #d35649;
   color: #fff;
   -webkit-transition-duration: 600ms;
   transition-duration: 600ms;
@@ -352,6 +352,21 @@
 @media screen and (min-width: 768px) {
   .ftr-social > p {
     margin: 3rem 0 2rem;
+  }
+  .search-container h4 {
+    margin-top: 15px;    
+  }  
+  .search-input,
+  .search-container h4 {
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  .search-input input[type='text'] {
+    width: 125%;
+    margin-bottom: 25px;
+  }
+  .search-input input[type='submit'] {
+    width: 25%;    
   }
 }
 
