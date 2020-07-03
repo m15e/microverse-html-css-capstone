@@ -1,29 +1,29 @@
 .is-just-center {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .is-just-between {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .is-just-around {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .wrap-wrap {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .ai-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .mx-auto {
@@ -106,7 +106,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .columns {
@@ -115,14 +115,14 @@
 
 .panel {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .search-home:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #00b3ff;
   -webkit-transition-duration: 900ms;
-          transition-duration: 900ms;
+  transition-duration: 900ms;
 }
 
 .panel-tabs a {
@@ -133,8 +133,29 @@
   background-color: #ff5252;
 }
 
+.ftr-social a {
+  opacity: 0.6;
+}
+
+.search-results a {
+  height: 400px;
+}
+
+.ftr-links ul li a {
+  text-align: center;
+}
+
 .main-nav .panel-tabs a {
   width: 16.6%;
+}
+
+.main-nav .nav-panel a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main-nav .panel-tabs .brand {
@@ -147,15 +168,6 @@
   color: #fff;
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.main-nav .nav-panel a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .search-container {
@@ -191,16 +203,12 @@
   border-bottom: 1px solid #fff;
 }
 
-.ftr-links ul li a {
-  text-align: center;
-}
-
 .ftr-links .space-span {
   width: 150px;
 }
 
-.ftr-social a {
-  opacity: 0.6;
+.ftr-cols input[type='text']::-ms-input-placeholder {
+  color: #fff;
 }
 
 .ftr-cols input[type='text']::-webkit-input-placeholder {
@@ -208,21 +216,13 @@
   color: #fff;
 }
 
-.ftr-cols input[type='text']:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #fff;
-}
-
-.ftr-cols input[type='text']::-ms-input-placeholder {
-  color: #fff;
-}
-
 .ftr-cols input[type='text']::placeholder {
   color: #fff;
 }
 
-.search-results a {
-  height: 400px;
+.ftr-cols input[type='text']:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
 }
 
 .search-results .user {
@@ -251,19 +251,20 @@
   background-color: #45aaf2;
 }
 
-.filt-btn-search:hover, .filt-btn-clear:hover {
-  background-color: #ff5252;
-  color: #fff;
-  -webkit-transition-duration: 600ms;
-          transition-duration: 600ms;
-}
-
 .filt-btn-clear {
   background: url("../img/clear.svg") no-repeat, #f6b93b no-repeat;
   background-size: 8%, cover;
   background-position: 0.6rem center, center;
   padding-left: 1.5rem;
   color: #fff;
+}
+
+.filt-btn-search:hover,
+.filt-btn-clear:hover {
+  background-color: #ff5252;
+  color: #fff;
+  -webkit-transition-duration: 600ms;
+  transition-duration: 600ms;
 }
 
 .result-link {
@@ -280,7 +281,7 @@
   border: 1px solid #dadada;
   padding: 2rem;
   -webkit-box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
-          box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.15);
 }
 
 .result-details .result-apply {
@@ -289,15 +290,15 @@
 
 .result-details ul {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   clear: both;
 }
 
 .result-details li {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   line-height: 2;
 }
 
@@ -358,12 +359,14 @@
   #brand {
     width: 120%;
   }
+
   .ftr-links ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr);
-        grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(9, 1fr);
   }
+
   .ftr-links img {
     padding: 10px;
     border: 1px solid #fff;
@@ -377,4 +380,3 @@
     bottom: 56%;
   }
 }
-
