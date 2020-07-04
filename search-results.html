@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results | LearnSpace</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <nav class='main-nav'>
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half is-flex is-just-center is-hidden-tablet">
+          <a href='https://epic-wozniak-4c8300.netlify.app/'><img class='image is-32x32'
+            src="./img/linkspace.svg"
+            alt="temp logo"></a>
+        </div>
+      </div>
+      <div class="columns is-centered pb-5">
+        <div class="column is-full-tablet pt-0 mx-auto">
+          <nav class="panel">
+            <p class="panel-tabs is-flex ai-center nav-panel">
+              <a href="https://epic-wozniak-4c8300.netlify.app/" id='brand' class='brand is-hidden-mobile'><img class='image is-32x32'
+                  src="./img/linkspace.svg"
+                  alt="temp logo"></a>
+               <a href="#"><img src="./img/search.svg" alt="search icon" class="image is-16x16 mx-auto"><span
+                  class='is-hidden-touch clr-white upcase has-text-weight-bold ml-1'>Search</span></a>
+              <a href="#"><img src="./img/user.svg" alt="user icon" class="image is-16x16 mx-auto"><span
+                  class='is-hidden-touch clr-white upcase has-text-weight-bold ml-1'>User</span></a>
+              <a href="#"><img src="./img/rss.svg" alt="rss icon" class="image is-16x16 mx-auto"><span
+                  class='is-hidden-touch clr-white upcase has-text-weight-bold ml-1'>Share</span></a>
+              <a href="#"><img src="./img/nav.svg" alt="nav icon" class="image is-16x16 mx-auto"><span
+                  class='is-hidden-touch clr-white upcase has-text-weight-bold ml-1'>Spaces</span></a>
+            </p>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+  <div class="results-page">
+    <section class='search-filter bg-light-grey mt-6'>
+      <div class="container py-6">
+        <h2 class='title is-3 has-text-centered px-4 py-2 clr-grey'>Filter by name, subject, category, teacher or difficulty level:
+        </h2>
+
+        <form action="/filter" class='is-flex wrap-wrap is-just-around px-4'>
+          <div class="field">
+            <label class="label">User</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="@username">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Subject</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>iOS</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Category</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Mobile Development</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>          
+          <div class="field">
+            <label class="label">Level</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Beginner</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Filter</label>
+            <div class="control">
+              <div class="select">
+                <select>
+                  <option>Most Viewed</option>
+                  <option>With options</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="field is-grouped is-flex ai-center">
+            <div class="control pt-4">
+              <button type='button' class="button filt-btn-search has-text-weight-bold clr-white">Search</button>
+            </div>
+            <div class="control pt-4">
+              <button type='button' class="button filt-btn-clear has-text-weight-bold clr-white">Clear filter</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+    <section class="search-results py-6">
+      <h1 class='title has-text-centered clr-grey'>Search Discovered 4 Item(s).</h1>
+      <div class="columns is-tablet px-6">
+        <div class="column is-one-third has-text-centered">
+          <a href="https://missing.csail.mit.edu" class='missem is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Course: <span class='has-text-weight-bold'>MIT MISSING SEMSTER</span></h3>
+          </a>
+        </div>
+        <div class="column is-one-third has-text-centered">
+          <a href="/result.html" class='user is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>USER COLLECTION: <span class='has-text-weight-bold'>ESHER127</span></h3>
+          </a>
+        </div>
+        <div class="column is-one-third has-text-centered">
+          <a href="/result.html" class='intro-ml is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Course: <span class='has-text-weight-bold'>Intro to Fluid Dynamics</span></h3>
+          </a>
+        </div>        
+      </div>
+      <div class="columns is-tablet px-6">
+        <div class="column is-one-third has-text-centered">
+          <a href="https://missing.csail.mit.edu/" class='coms is-block w-100 pt-4'>
+            <h3 class='upcase pt-6 mt-6 clr-white'>Course: <span class='has-text-weight-bold'>Wireless Communications</span></h3>
+          </a>
+        </div>               
+      </div>
+    </section>
+  </div>
+    <footer class="bg-black">
+    <div class="container pt-6">
+      <div class="ftr-links mx-6 has-text-centered">
+        <img src="./img/linkspace.svg" alt="logo">
+        <ul class='ai-center is-just-between w-100 py-4 my-6'>
+          <li><a href="#" class='title is-6 clr-white'>HOME</a></li>
+          <li><a href="#" class='title is-6 clr-white'>SEARCH</a></li>
+          <li><a href="#" class='title is-6 clr-white'>ABOUT US</a></li>
+          <li><a href="#" class='title is-6 clr-white'>ADVERTISE</a></li>
+          <li><span class='space-span'></span></li>
+          <li><a href="#" class='title is-6 clr-white'>FACEBOOK</a></li>
+          <li><a href="#" class='title is-6 clr-white'>TWITTER</a></li>
+          <li><a href="#" class='title is-6 clr-white'>BLOG</a></li>
+          <li><a href="#" class='title is-6 clr-white'>GOOGLE</a></li>
+        </ul>
+      </div>
+      <div class="ftr-cols columns is-tablet pb-6 mb-2">
+        <div class="column clr-white has-text-centered">
+          <h4 class='title is-4 clr-white'>SUBSCRIBE</h4>
+          <form action="/subscribe" class='is-flex'>
+            <input type="text" class='input bg-black w-75 clr-white' placeholder="example@mail.com">
+            <input type="submit" class='button w-25 bg-grey clr-white has-text-weight-bold' value='send'>
+          </form>
+        </div>
+        <div class="column clr-white has-text-centered">
+          <h4 class='title is-4 clr-white'>CONTACT</h4>
+          <p>Questions and Suggestions?<br><a class='clr-theme' href="mailto:help@capstone.com">support@capstone.com</a>
+          </p>
+        </div>
+        <div class="column clr-white has-text-centered">
+          <h4 class='title is-4 clr-white'>SUBSCRIBE</h4>
+          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! <a href='#'
+              class='clr-theme'>Learn more.</a></p>
+        </div>
+      </div>
+    </div>
+     <div class="ftr-grey bg-dark-grey">
+      <div class="container">
+        <div class="ftr-social is-flex-tablet is-just-between">
+          <nav class="panel pt-4">
+            <p class="panel-tabs">
+              <a href="#"><img src="./img/facebook.svg" alt="search icon" class="image is-16x16 mx-auto"></a>
+              <a href="#"><img src="./img/twitter.svg" alt="user icon" class="image is-16x16 mx-auto"></a>
+              <a href="#"><img src="./img/rss.svg" alt="rss icon" class="image is-16x16 mx-auto"></a>
+              <a href="#"><img src="./img/email.svg" alt="nav icon" class="image is-16x16 mx-auto"></a>
+            </p>
+          </nav>
+          <p class='pb-4 has-text-centered'>&copy; m15e 2020 All Rights Reserved. Powered by <a href='#'
+              class='clr-white'>Transitor Physics
+              Magic</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
